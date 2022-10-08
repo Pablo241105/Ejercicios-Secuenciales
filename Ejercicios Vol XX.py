@@ -15,5 +15,5 @@ monedasdecentimos=monedade50cent*50+monedade20cent*20+monedade10cent*10
 
 print("Tienes estos euros",monedasdeeuro,"Tienes estos centimos",monedasdecentimos)
 if(monedasdecentimos>=100) :
-    (monedasdeeuro+1)
+    print("Sumando los centimos te quedan estos euros",monedasdeeuro+1,"Y estos centimos" ,monedasdecentimos-100)
     

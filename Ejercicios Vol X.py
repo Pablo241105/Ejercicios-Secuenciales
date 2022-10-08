@@ -10,4 +10,4 @@ examenfinal=(int)(input("La nota del examen final es:\n"))
 trabajofinal=(int)(input("La nota del trabajo final es:\n"))
 print("La media de los examenes parciales es",(examen1+examen2+examen3)/3)
 examenesparciales=(examen1+examen2+examen3)/3
-print("La nota final es "((examenesparciales*0.55)+(examenfinal*0.3)+(trabajofinal*0.15)/3))
+print("La nota final es ",examenesparciales*0.55+examenfinal*0.30+trabajofinal*0.15)
