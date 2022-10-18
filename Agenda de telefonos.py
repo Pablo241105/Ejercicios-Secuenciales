@@ -10,10 +10,7 @@ Ejemplo[Juan - Telefono,Pepe- Telefono]
 vNombres = []
 vTelefonos = []
 '''
-1-Insetar contacto
-2-Borrar contacto
-3-Buscar contacto
-4-Ver todos los contactos
+1-Insetar contacto5
 5-Salir
 '''
 opc=0
