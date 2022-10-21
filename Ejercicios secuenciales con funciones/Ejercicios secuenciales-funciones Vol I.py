@@ -1,5 +1,9 @@
+nombre=""
+nombre=input("Di tu nombre: ")
+
 def saludo():
-    nombre=""
-    nombre=input("Di tu nombre: ")
-    print("Hola",nombre)
-saludo()
+    
+ return("Hola ",nombre)    
+
+
+print("Hola",nombre)
