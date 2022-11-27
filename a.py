@@ -1,14 +1,7 @@
-from pytube import YouTube
-
-print("Empezando")
-link = "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-yt = YouTube(link)
-
-for pistas in yt.streams:
-    print(pistas)
-
-mp3 = yt.streams.get_audio_only()
-print("Descargando")
-mp3.download()
-
-
+numero=0
+numero=int(input("Dime el numero"))
+while (numero!=0):
+    numero=int(input("Dime el numero"))
+    suma=suma+numero
+    media=media
+print("El numero era 0")
